@@ -28,6 +28,7 @@ namespace SPH
 	class PointBuffer
 	{
 	public:
+		//test
 		void reset(unsigned int capcity);
 		unsigned int size(void) const { return mFluidCounts; }
 		unsigned int sizefluid(void) const { return mFluidPoints; }
